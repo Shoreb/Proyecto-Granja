@@ -25,7 +25,10 @@ app = FastAPI(
 # =====================================================
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://proyecto-granja-nine.vercel.app"],
+    allow_origins=[
+        "https://proyecto-granja-nine.vercel.app",
+    ],
+    allow_origin_regex=r"https://proyecto-granja-.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
