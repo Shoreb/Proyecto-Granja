@@ -5,7 +5,7 @@
  */
 
 // ⚠️ Cambia esta URL cuando hagas deploy del backend
-const API_BASE = ' https://proyecto-granja-production.up.railway.app';
+const API_BASE = 'https://proyecto-granja-production.up.railway.app';
 
 // Número de WhatsApp del negocio (sin + ni espacios)
 const WA_NUMBER = '573001234567';
