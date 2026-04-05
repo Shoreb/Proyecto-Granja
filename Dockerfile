@@ -3,4 +3,5 @@ WORKDIR /app
 COPY backend/requirements.txt .
 RUN pip install -r requirements.txt
 COPY backend/ .
-CMD uvicorn main:app --host 0.0.0.0 --port $PORT
+EXPOSE 8080
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
