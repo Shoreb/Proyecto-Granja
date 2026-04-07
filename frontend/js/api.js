@@ -8,7 +8,7 @@
 const API_BASE = 'https://proyecto-granja-production.up.railway.app';
 
 // Número de WhatsApp del negocio (sin + ni espacios)
-const WA_NUMBER = '573001234567';
+const WA_NUMBER = '573044825099';
 
 /**
  * Carga los productos desde la API y renderiza la grilla.
